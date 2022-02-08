@@ -1,0 +1,20 @@
+=====[ Relecture du code ]======================================================
+
+Remarque : n points de pénalité ==> n points perdus sur la note.
+
+Fichier LISEZ-MOI.txt :
+    question 1 : réponse fausse : -1 pt.
+    question 2 : réponse incomplète : -0.5 pt.
+
+Forme 
+    * indentation			-0.5
+    * choix des identifiants		-1
+	en particulier les paramètres de creerCercle (voir retour fait aux étudiants)
+    * variable locale inutile		-0.5
+            double perimetre = 2*PI*rayon;
+	    return perimetre;
+	    
+	    
+Total pénalités : 3.5
+
+--------------------------------------------------------------------------------
