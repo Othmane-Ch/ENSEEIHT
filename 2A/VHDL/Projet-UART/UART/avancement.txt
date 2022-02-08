@@ -1,0 +1,3 @@
+On a pu valider les étapes précédantes sauf quelques remarques ( à propos du fichier n7.makefile et le manque de commentaire)
+Pour ce rendu final on a pu valider la simulation du composant RxUnit avec les différents tests : test normal ,test avec une erreur dans le bit de partie et un autre avec une erreur dans le bit de stop que vous trouverez dans le fichier test de RxUnit
+Malheureusement, on a pas pu tester sur la carte . On les a rendu , et on vient de regler le problème du .bit .
