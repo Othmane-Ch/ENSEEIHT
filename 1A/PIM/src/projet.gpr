@@ -1,0 +1,18 @@
+project Projet is
+
+   for Main use ("pagerank.adb", "test_google_creuse.adb", "test_google_naive.adb");
+
+   package Builder is
+      for Default_Switches ("ada") use ("-s");
+   end Builder;
+
+   package Compiler is
+      for Default_Switches ("ada") use ("-gnatwa", "-gnata", "-g");
+   end Compiler;
+
+   package Binder is
+      for Default_Switches ("ada") use ("-E");
+   end Binder;
+
+end Projet;
+
