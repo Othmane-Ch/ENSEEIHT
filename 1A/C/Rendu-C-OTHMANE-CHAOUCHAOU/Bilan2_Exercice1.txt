@@ -1,0 +1,49 @@
+Indiquer vos réponses aux questions de l'exercice 1 du Bilan 2 ci-après : 
+
+[B1.1] Quelle est la portée de chaque variable déclarée ? Pour chaque variable, on donnera le numéro de ligne où commence et se termine sa portée.
+
+int n = 10;
+    de ligne 8 jusqu'à ligne 20, de ligne 26 jusqu'à ligne 37
+
+int *p = NULL;
+    de ligne 9 jusqu'à ligne 37
+
+int a = 5;
+    de ligne 13 jusqu'à ligne 18;
+
+int n = 7;
+    de ligne 22 à ligne 25;
+
+double r = 11;
+    de ligne 30 à ligne 33;
+
+
+
+
+[B1.2] Y a-t-il un exemple de masquage de variable dans ce programme ?
+C'est la déclaration de la ligne 22 qui masque celle de ligne 8.
+
+
+
+[B1.3] Peut-on savoir ce que devrait afficher l’exécution de ce programme ?
+
+Non , on peut pas car des addresses  (lignes 10, 11 ...)  qui est lié à l'état de la mémoire.
+
+
+
+[B1.4] Même s’il compile sans erreur, ce programme est faux. Pourquoi ?
+
+le programme est faux, car apres la ligne 18 le pointeur 'p' pointe sur une case qui prend une valeur aléatoire, et il faut ajouter p = null; avant de fermer l'acolade à la ligne 18.
+
+
+[B1.5] La valeur de `p` change-t-elle après l’initialisation de la ligne 14 ?
+
+Oui, la valeur de 'p' change, elle pointe alors sur la case d'adresse &a.
+
+
+[B1.6] Que se passerait-il si on modifiait `*p` après la ligne 19 ?
+
+En modifiant '*p' on modifie alors la case sur la cse sur laquelle pointe 'p' ce qui peut engendrer une modification d'une autre variable qui se trouve dans la même case.
+
+
+
